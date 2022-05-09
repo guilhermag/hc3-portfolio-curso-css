@@ -5,6 +5,7 @@ body {
   background-color: var(--bg-principal);
   color: var(--font-color-principal);
   font-family: var(--font-style);
+
 }
 
 a {
@@ -88,7 +89,7 @@ header ul li a:hover {
 }
 
 .logo-desktop {
-  width: 60%;
+  width: 50%;
 }
 
 .logo-mobile {
@@ -155,8 +156,14 @@ header ul li a:hover {
 
   .logo-mobile {
     display: block;
-    width: 40%;
+    width: 90%;
   }
 
+  body {
+    font-size: 22px;
+  }
 
+  .project__card {
+    transform: scale(0.8);
+  }
 }

@@ -9,13 +9,20 @@ O objetivo desse projeto foi colocar em prática os conhecimentos adquiridos dur
 - HTML.
   
 - CSS.
+
+- JavaScript.
   
 ## Preview do projeto
 
-Preview.
+Preview desktop.
 
-![Preview do projeto1]()
-![Preview do projeto2]()
+![Preview desktop](./assets/img/preview-desktop-1.png)
+![Preview desktop com projetos](./assets/img/preview-desktop-2.png)
+
+Preview mobile.
+
+![Preview mobile](./assets/img/preview-mobile-1.png)
+![Preview mobile com projetos](./assets/img/preview-mobile-2.png)
 
 ## Como testar o projeto
 
