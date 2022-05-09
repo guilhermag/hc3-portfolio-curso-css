@@ -28,6 +28,15 @@ header ul li {
   padding: 5px;
 }
 
+header ul li a {
+  transition: 0.3s;
+}
+
+header ul li a:hover {
+  color: var(--color-icon);
+  text-decoration: underline;
+}
+
 .container {
   text-align: center;
 }
@@ -40,6 +49,33 @@ header ul li {
 .name__titulo {
   font-size: 25px;
   margin-bottom: 1.5rem;
+}
+
+#arrow {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#animation {
+  transition: 0.3s;
+}
+
+.icone {
+  margin: 0.2rem 0 1.5rem 0;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: 0.3s;
+  margin: 1.5rem 0 0.2rem 0;
+}
+
+#projects-id {
+  display: none;
+}
+
+.active {
+  display: flex !important;
 }
 
 #about p {
@@ -59,9 +95,6 @@ header ul li {
   display: none;
 }
 
-.icone {
-  margin: 0.2rem 0 2.2rem 0;
-}
 
 .projects {
   display: flex;
